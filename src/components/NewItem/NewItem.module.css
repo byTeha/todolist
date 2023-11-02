@@ -1,0 +1,7 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    border: 1px solid  rgb(2, 7, 155);
+    padding: 10px 5px;
+    background-color: aliceblue;
+}

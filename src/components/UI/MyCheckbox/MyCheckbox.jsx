@@ -1,10 +1,10 @@
 import React from 'react'
 import classes from './MyCheckbox.module.css'
-function MyCheckbox({labeltxt,id}) {
+function MyCheckbox({labeltxt,id,checked,callback}) {
   return (
     <div className={classes.checkConteiner}>
-        <input className={classes.inCheck} type={"checkbox"} id={id}/>
-        <label for={id}>{labeltxt}</label>
+        <input onChange={()=>callback(id)} checked={checked} className={classes.inCheck} type={"checkbox"} id={id}/>
+        <label htmlFor={id}>{labeltxt}</label>
     </div>
   )
 }
