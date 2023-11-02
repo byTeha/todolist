@@ -1,0 +1,8 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid  rgb(2, 7, 155);
+    height: 90vh;
+    padding: 10px;
+}
