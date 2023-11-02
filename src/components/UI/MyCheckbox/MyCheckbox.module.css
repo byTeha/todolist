@@ -1,8 +1,6 @@
 .checkConteiner{
     display: flex;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 50px;
+    align-items: center; 
 }
 
 label{
@@ -10,6 +8,7 @@ label{
     cursor: pointer;
     display: flex;
     position: relative;
+
 }
 
 label:hover::before{
